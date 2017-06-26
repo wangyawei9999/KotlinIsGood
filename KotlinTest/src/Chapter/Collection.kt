@@ -1,3 +1,5 @@
+package Chapter
+
 /**
  * Created by Administrator on 2017/6/26.
  */
@@ -10,4 +12,9 @@ fun main(args: Array<String>) {
     println(set.javaClass)
     println(list.javaClass)
     println(map.javaClass)
+
+    val strings = listOf("first", "second", "third")
+    println(strings.last())
+    val numbers = setOf(12, 14, 8)
+    println(numbers.max())
 }
