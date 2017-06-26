@@ -18,7 +18,5 @@ fun main(args: Array<String>) {
     val numbers = setOf(12, 14, 8)
     println(numbers.max())
 
-
-
-
+    println("I love Kotlin")
 }
