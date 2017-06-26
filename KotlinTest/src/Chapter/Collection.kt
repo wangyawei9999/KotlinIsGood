@@ -17,5 +17,4 @@ fun main(args: Array<String>) {
     println(strings.last())
     val numbers = setOf(12, 14, 8)
     println(numbers.max())
-
 }
